@@ -1,0 +1,17 @@
+body{
+    background-color: blue;
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: gray;
+    border-radius: 5px;
+    border: wheat 1px solid;
+    padding: 10px;
+}
+.content>div{
+    border: red 2px solid;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: cadetblue;
+}
